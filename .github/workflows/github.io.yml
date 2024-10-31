@@ -8,6 +8,8 @@ on:
 
 jobs:
   build-and-deploy:
+    # Deactivate the workflow. Will be chnaged when AB is ready
+    if: false
 
     runs-on: ubuntu-latest
 
